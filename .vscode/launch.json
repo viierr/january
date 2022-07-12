@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "debug",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "build/january.exe",
+      "args": ["-n=lol", "-l=cpp", "-b=CMAKE"],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true
+    }
+  ]
+}
